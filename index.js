@@ -48,4 +48,5 @@ import puppeteer from "puppeteer";
   // console.log("fin");
 
   await browser.close();
+  await browser.close();
 })();
