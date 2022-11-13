@@ -12,6 +12,4 @@ import { obtenerDolarBlue } from "./scrappers/dolar.js";
     null,
     precioDolarBlue
   );
-
-  console.log("El precio del dolar blue es: ", precioDolarBlue);
 })();
