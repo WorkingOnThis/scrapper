@@ -63,3 +63,20 @@ export async function addToDatabase(
     console.error(error.body);
   }
 }
+
+export async function updateToPage(pageId, precio) {
+  try {
+    const response = await notion.pages.update({
+      page_id: pageId,
+      properties: {
+        Dolar: {
+          type: "number",
+          number: precio,
+        },
+      },
+    });
+    console.log(response);
+  } catch (error) {
+    console.error(error.body);
+  }
+}
