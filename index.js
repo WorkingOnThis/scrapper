@@ -23,6 +23,7 @@ import puppeteer from "puppeteer";
   const pasadoANumero = Number(resultadoValorDolar.replace("$", ""));
 
   console.log(pasadoANumero);
+  console.log(pasadoANumero);
   // // Type into search box.
   // await page.type(".devsite-search-field", "Headless Chrome");
 
